@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lasanha</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+
+            background: linear-gradient(90deg,
+                    #2bff00 25%,
+                    #e2dfda 45%,
+                    #ff0000 100%);
+
+            color: #3b2115;
+        }
+
+        .container-fluid {
+            min-height: 100vh;
+            padding: 50px 7%;
+        }
+
+
+
+        h1 {
+            text-align: center;
+
+            font-size: 80px;
+            margin-bottom: 5px;
+
+            color: #f5e721;
+            font-weight: bold;
+        }
+
+
+
+        h2 {
+            text-align: center;
+
+            font-family: "Monsieur La Doulaise", cursive;
+            font-weight: 400;
+
+            color: #faf600;
+
+            font-size: 55px;
+            margin-bottom: 50px;
+        }
+
+        .conteudo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            gap: 70px;
+
+            max-width: 1400px;
+            margin: auto;
+        }
+
+
+
+        .imagem {
+            width: 50%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .imagem img {
+            width: 100%;
+            max-width: 650px;
+
+            border-radius: 25px;
+
+            box-shadow:
+                0 15px 35px rgba(70, 25, 10, 0.35);
+
+            transition: transform 0.3s ease;
+        }
+
+        .imagem img:hover {
+            transform: scale(1.03);
+        }
+
+
+
+        .textos {
+            width: 50%;
+
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        h3 {
+            color: #a83b20;
+
+            font-size: 32px;
+
+            margin-bottom: 15px;
+        }
+
+        h5 {
+            font-family: Arial, sans-serif;
+
+            font-size: 19px;
+            line-height: 1.7;
+
+            color: #4b3025;
+
+            margin: 0;
+        }
+
+
+        @media (max-width: 900px) {
+
+            h1 {
+                font-size: 60px;
+            }
+
+            h2 {
+                font-size: 45px;
+            }
+
+            .conteudo {
+                flex-direction: column;
+            }
+
+            .imagem,
+            .textos {
+                width: 100%;
+            }
+
+            .imagem img {
+                max-width: 600px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <h1>Lasanha</h1>
+
+        <h2>Como fazer do zero?</h2>
+
+        <div class="conteudo">
+
+            <!-- IMAGEM À ESQUERDA -->
+
+            <div class="imagem">
+
+                <img src="lasanha.jpg" alt="Lasanha">
+
+            </div>
+
+
+
+            <div class="textos">
+
+                <div class="texto-box">
+
+                    <h3>Ingredientes</h3>
+
+                    <h5>
+                        Carne Moída (patinho, coxão mole e/ou acém),
+                        1 pacote de folha de lasanha (massa),
+                        1 colher de chá de extrato de tomate e
+                        2 sachês de molho de tomate (Tarantella),
+                        1 vidro de azeite de oliva extra virgem,
+                        orégano e sal, um pouco de páprica e
+                        pimenta-do-reino.
+                    </h5>
+
+                </div>
+
+
+                <div class="texto-box">
+
+                    <h3>Modo de preparo</h3>
+
+                    <h5>
+                        Em uma vasilha, adicione a carne e os devidos
+                        temperos secos. Misture com as mãos até a
+                        mistura se tornar homogênea.
+
+                        Aqueça uma panela com azeite de oliva extra
+                        virgem e despeje a carne, mexendo bem até
+                        dourar. Adicione sal só depois de fritar a carne.
+
+                        Para o molho, misture 1 colher de chá de extrato
+                        de tomate e os 2 sachês de molho de tomate e
+                        despeje na carne, misturando bem.
+
+                        Em seguida, use uma travessa de vidro e adicione
+                        camadas de folha de lasanha com carne, uma em
+                        cima da outra até o topo da travessa.
+
+                        Se preferir, use louro picado para realçar ainda
+                        mais o sabor da carne e do molho.
+
+                        Com a travessa pronta, coloque no forno por
+                        60 minutos a 180 °C.
+
+                        E prontinho! Você terá uma lasanha saborosa
+                        e altamente viciante!
+                    </h5>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
